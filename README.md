@@ -1,5 +1,5 @@
 # wello_horld
-A test repository to set up a "Hello world" webapp running in Docker inside an Ubuntu 16.04 Virtual Box managed with Vagrant version controlled with git.  You dog, I heard you were cold and that you like software layers, so we put software layers in your software layers, so you can write layered software while you're wearing soft layers
+A test repository to set up a "Hello world" webapp running in Docker inside an Ubuntu 16.04 Virtual Box managed with Vagrant version controlled with git.  Yo dawg, I heard you were cold and that you like software layers, so we put software layers in your software layers, so you can write layered software while you're wearing soft layers
 
 Tested on CentOS 7.4 as root.
 Prerequisites: git, virtualbox, vagrant
