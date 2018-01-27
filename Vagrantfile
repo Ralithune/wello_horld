@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/xenial64"
-  config.vm.network :forwarded_port, guest: 80, host: 8080
+  config.vm.network :forwarded_port, guest: 80, host: 8088
   config.vm.provision :shell, path: "bootstrap.sh"
 
   # Disable automatic box update checking. If you disable this, then
