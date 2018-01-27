@@ -5,19 +5,25 @@ Tested on CentOS 7.4 as root.
 Prerequisites: git, virtualbox, vagrant
 
 CentOS 7.4 - Install Virtualbox:
+```
 cd /etc/yum.repos.d/ 
 wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
 yum -y install VirtualBox-5.2
+```
 
 CentOS 7.4 - Install Vagrant:
+```
 cd
 wget https://releases.hashicorp.com/vagrant/2.0.1/vagrant_2.0.1_x86_64.rpm
 yum -y install vagrant_2.0.1_x86_64.rpm
-
+```
 
 Startup steps:
- - Clone the repository
- - cd to the cloned directory
- - Run "vagrant up" (this will take about 5 minutes)
- - Run "wget -qO- 127.0.0.1:8080"
- - Flask app logging will appear in "app.log"
+```
+git clone https://github.com/Ralithune/wello_horld.git
+cd wello_horld
+vagrant up
+wget -qO- 127.0.0.1:8080
+```
+
+Flask app logging will appear in "app.log", inside the wello_horld directory.
