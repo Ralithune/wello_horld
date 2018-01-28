@@ -23,7 +23,7 @@ Startup steps:
 git clone https://github.com/Ralithune/wello_horld.git
 cd wello_horld
 vagrant up
-wget -qO- 127.0.0.1:8080
+wget -qO- 127.0.0.1:8088
 ```
 
 Flask app logging will appear in "app.log", inside the wello_horld directory.
